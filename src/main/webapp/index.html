@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Vizuri Single Page Application!</title>
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular/angular-route.min.js"></script>
+	<script src="lib/angular/angular-animate.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/filters.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body data-ng-app="myApp">
+	<!-- HEADER AND NAVBAR -->
+		<header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Vizuri Contacts Showcasing AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+					<li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+					<li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+	<div class="main" data-ng-view></div>
+	<!-- FOOTER -->
+	<footer class="text-center">		
+		<p>All rights reserved by Anil Mirge</p><br>
+   		<p>Copyright 2014</p>
+	</footer>
+</body>
+</html>
